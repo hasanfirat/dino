@@ -1,4 +1,4 @@
-var cimen_sayaci = 0;
+            var cimen_sayaci = 0;
             var kaktus_sayaci = 0;
             var dino_animasyon_sayaci = 1;
             var dino_geberirse = 1;
@@ -137,7 +137,7 @@ var cimen_sayaci = 0;
             document.onkeyup = move;
             function move(e)
             {
-                if(e.keyCode == 32 && ziplamaya_karar_verici_bug == true)
+                if((e.keyCode == 32 && ziplamaya_karar_verici_bug == true) && dead == false)
                 {
                     ziplamaya_karar_verici_bug = false;
                     aaa = true;
