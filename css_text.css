@@ -1,7 +1,8 @@
-	#contenter{position: absolute; top:0px; left: 0px; padding: 0px; margin: 0px; width: 100%; height: 100%;}
-            #alan{width: 1000px; height: 200px; background-color: lightgrey; position: absolute; top:0px; left: 0px;padding: 0px; margin: 0px;}
-            #point{width: auto; height: auto; background-color: red; color:white; position: absolute; top:0px; left: 0px;padding: 0px; margin: 0px;}
-            #zemin{width: 1000px; height: 100px; background-color: green; position: absolute; top:100px; left: 0px; padding: 0px; margin: 0px;}
-            #arazi{width: 1000px; height: 100px; background-color:grey; position: absolute; top:0px; left: 0px; padding: 0px; margin: 0px;}
-            .alanda_cimen{width: 4px; height: 4px; background-color: greenyellow; position: absolute; padding: 0px; margin: 0px;}
-            #point{z-index: 1; position: absolute; left: 5px; top: 5px; color: white; background-color: red;}
+#contenter{position: absolute; top:0px; left: 0px; padding: 0px; margin: 0px; width: 100%; height: 100%;}
+#alan{width: 1000px; height: 200px; background-color: lightgrey; position: absolute; top:0px; left: 0px;padding: 0px; margin: 0px;}
+#point{width: auto; height: auto; background-color: red; color:white; position: absolute; top:0px; left: 0px;padding: 0px; margin: 0px;}
+#zemin{width: 1000px; height: 100px; background-color: green; position: absolute; top:100px; left: 0px; padding: 0px; margin: 0px;}
+#arazi{width: 1000px; height: 100px; background-color:rgb(200, 200, 200); position: absolute; top:0px; left: 0px; padding: 0px; margin: 0px;}
+#point{z-index: 1; position: absolute; left: 5px; top: 5px; color: white; background-color: red;}
+#moon{position: absolute; top:100px;left: 900px;padding: 0px; margin: 0px;}
+#sun{position: absolute; top:0px; left: 900px;padding: 0px; margin: 0px;}
