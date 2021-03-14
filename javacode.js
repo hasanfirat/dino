@@ -20,7 +20,7 @@
             var dongu4 = setInterval(dino_hareketke, 70);
             var dongu5 = setInterval(durum_yapisi, 30);
             var dongu6 = setInterval(ziplama_fonksiyonu, 30);
-            var dongu6 = setInterval(point_y, 100);
+            var dongu7 = setInterval(point_y, 100);
 
             function point_y()
             {
@@ -93,6 +93,7 @@
                         clearInterval(dongu4);                        
                         clearInterval(dongu5);
                         clearInterval(dongu6);
+                        clearInterval(dongu7);
                         var geberince_dusme = setInterval( 
                         function aaaaa()
                         {                      
