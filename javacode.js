@@ -22,14 +22,14 @@
             var sayac = 0;
             var arazi_renk_rgb = 200;
             var dongu1 = setInterval(gunes_ay_dongu, 1000);
-            var dongu2 = setInterval(kaktus_uretme, 5000);
-            var dongu3 = setInterval(kaktus_hareket_ettirme, 30);
+            var dongu2 = setInterval(kaktus_uretme, 3500);
+            var dongu3 = setInterval(kaktus_hareket_ettirme, 20);
             var dongu4 = setInterval(dino_hareketke, 70);
             var dongu5 = setInterval(durum_yapisi, 30);
             var dongu6 = setInterval(ziplama_fonksiyonu, 30);
             var dongu7 = setInterval(point_y, 100);
-            var dongu9 = setInterval(bulut_uretme, 4000);
-            var dongu10 = setInterval(bulut_hareket_ettirme, 50);
+            var dongu9 = setInterval(bulut_uretme, 2000);
+            var dongu10 = setInterval(bulut_hareket_ettirme, 25);
 
             function point_y()
             {
