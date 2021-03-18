@@ -31,6 +31,49 @@
             var dongu9 = setInterval(bulut_uretme, 2000);
             var dongu10 = setInterval(bulut_hareket_ettirme, 25);
 
+            resim_onyukleme();
+
+            function resim_onyukleme()
+            {
+                var ana_onyukleme = "";
+                var onyukleme_1 = 0;
+                while(onyukleme_1 < 14)
+                {
+                    ana_onyukleme += "<img src='kaktus_png/kaktus_k_"+ onyukleme_1 +".png'>";
+                    onyukleme_1++;
+                }
+
+                var onyukleme_2 = 0;
+                while(onyukleme_2 < 12)
+                {
+                    ana_onyukleme += "<img src='sky/cloud/cloud"+ onyukleme_2 +".png'>";
+                    onyukleme_2++;
+                }
+
+                var onyukleme_3 = 1;
+                while(onyukleme_3 < 9)
+                {
+                    ana_onyukleme += "<img src='dino_png/run/run" + onyukleme_3 + ".png'>";
+                    onyukleme_3++;
+                }
+
+                var onyukleme_4 = 1;
+                while(onyukleme_4 < 9)
+                {
+                    ana_onyukleme += "<img src='dino_png/dead/dead" + onyukleme_4 + ".png'>";
+                    onyukleme_4++;
+                }
+
+                var onyukleme_5 = 1;
+                while(onyukleme_5 < 19)
+                {
+                    ana_onyukleme += "<img src='dino_png/jump/jump" + onyukleme_5 + ".png'>";
+                    onyukleme_5++;
+                }
+                document.getElementById("onyukleme").innerHTML = ana_onyukleme;
+
+            }
+
             function point_y()
             {
                 score++;
